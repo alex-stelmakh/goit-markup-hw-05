@@ -752,7 +752,7 @@ textarea::placeholder {
     margin-bottom: 24px;
 }
 
-.modal-check:checked + .check-text span {
+.modal-check:checked + .check-text .span {
     background-color: #4d5ae5;
     border: none;
     fill: #f4f4fd;
@@ -768,7 +768,7 @@ textarea::placeholder {
     margin-bottom: 24px;
 }
 
-.check-text span {
+.check-text .span {
     display:inline-flex;
     position: relative;
     width: 16px;
