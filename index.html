@@ -478,7 +478,7 @@
         <div class="footer-subscrible">
           <p class="footer-subscrible-title">Subscribe</p>
           <form class="footer-form">
-            <label>
+            <label class="footer-label">
               <input
                 class="footer-input"
                 type="email"
@@ -497,7 +497,7 @@
       </div>
     </footer>
 
-    <div class="overlay">
+    <div class="overlay is-open">
       <div class="modal">
         <button type="button" class="modal-close">
           <svg class="modal-icon-close" width="8" height="8">
@@ -551,7 +551,7 @@
             </div>
           </div>
 
-          <div class="modal-field">
+          <div class="modal-field-comment">
             <label for="user-comment" class="modal-label">Comment</label>
             <textarea
               name="user-comment"
@@ -561,15 +561,16 @@
             ></textarea>
           </div>
 
-          <div class="modal-field">
+          <div class="modal-field-check">
             <input
               class="modal-check visually-hidden"
               type="checkbox"
-              id="privacy"
-              name="privacy"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
             />
-            <label for="privacy" class="check-text">
-              <span>
+            <label for="user-privacy" class="check-text">
+              <span class="span">
                 <svg class="modal-check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
