@@ -779,14 +779,6 @@ textarea::placeholder {
     justify-content: center;
     fill: transparent;
     margin-right: 8px;
-}
-
-.check-text {
-    font-size: 12px;
-    line-height: 1.16667;
-    letter-spacing: 0.04em;
-    color: #8e8f99;
-    display: block;
     position: relative;
 }
 
